@@ -157,6 +157,7 @@ html{
 .about-content .about-inner-content img{
     width: 80%;
     margin-left: 100px;
+    border-radius: 40px;
 }
 .about-text-content{
     padding: 0 4rem;
@@ -200,11 +201,30 @@ html{
 }
 .qulity-image{
     width: 100%;
+    
 }
 .qulity-image img{
     width: 100%;
     object-fit: cover;
+    border-radius: 40px;
 }
+.social {
+    display: flex;
+    align-items: center;
+    column-gap: 0.5rem;
+    margin-top: 1rem;
+  }
+  .social .bx {
+    font-size: 2.3rem;
+    padding: 0px;
+    border-radius: 50%;
+    color: orange;
+    background: var(--container-color);
+  }
+  .social .bx:hover {
+    background-color: black;
+    transition: 0.3s all linear;
+  }
 .gallery{
     padding: 4rem 7%;
     background: var(--about-sec);
