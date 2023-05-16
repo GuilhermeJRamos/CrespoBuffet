@@ -13,6 +13,7 @@
     transition: 0.5s;
     text-transform: capitalize;
 }
+
 html{
     font-size: 65%;
     scroll-behavior: smooth;
