@@ -248,11 +248,13 @@ html{
 .inner-gallery{
     flex: 1 1 300px;
     
+    
 }
 .inner-gallery .gallery-image img{
-    width: 100%;
+   
     object-fit: cover;
     height: 500px;
+    aspect-ratio: 1/1;
 }
 .inner-gallery .gallery-image:hover img{
     transform: perspective(1000px) rotateX(-4.80deg) rotateY(-10.23deg) scale3d(1.05,1.05,1.05);
