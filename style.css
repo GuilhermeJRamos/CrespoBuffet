@@ -13,7 +13,6 @@
     transition: 0.5s;
     text-transform: capitalize;
 }
-
 html{
     font-size: 65%;
     scroll-behavior: smooth;
@@ -21,7 +20,6 @@ html{
 .header{
     padding: 1rem 7%;
     position: fixed;
-
     left: 0;
     right: 0;
     display: flex;
@@ -30,7 +28,6 @@ html{
     z-index: 100;
     background: #1d1d23;
 }
-
 .logo img{
     width: 60px;
 }
@@ -158,7 +155,6 @@ html{
 .about-content .about-inner-content img{
     width: 80%;
     margin-left: 100px;
-    border-radius: 40px;
 }
 .about-text-content{
     padding: 0 4rem;
@@ -202,30 +198,11 @@ html{
 }
 .qulity-image{
     width: 100%;
-    
 }
 .qulity-image img{
     width: 100%;
     object-fit: cover;
-    border-radius: 40px;
 }
-.social {
-    display: flex;
-    align-items: center;
-    column-gap: 0.5rem;
-    margin-top: 1rem;
-  }
-  .social .bx {
-    font-size: 2.3rem;
-    padding: 0px;
-    border-radius: 50%;
-    color: orange;
-    background: var(--container-color);
-  }
-  .social .bx:hover {
-    background-color: black;
-    transition: 0.3s all linear;
-  }
 .gallery{
     padding: 4rem 7%;
     background: var(--about-sec);
@@ -248,13 +225,11 @@ html{
 .inner-gallery{
     flex: 1 1 300px;
     
-    
 }
 .inner-gallery .gallery-image img{
-   
+    max-width: 300px;
+    max-height: 400px;
     object-fit: cover;
-    height: 500px;
-    aspect-ratio: 1/1;
 }
 .inner-gallery .gallery-image:hover img{
     transform: perspective(1000px) rotateX(-4.80deg) rotateY(-10.23deg) scale3d(1.05,1.05,1.05);
@@ -262,7 +237,7 @@ html{
 }
 .enjoy-our-food{
     padding: 2rem 7%;
-    background: url(images/enjoye.png);
+    background: url(images/carninha.avif);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -275,9 +250,10 @@ html{
     width: 40%;
     border: 4px solid white;
     padding: 2rem;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 .food-main-content h1{
-    color: white;
+    color: orange;
     font-size: 35px;
     text-align: center;
     padding: 1rem 0;
@@ -316,7 +292,6 @@ html{
 }
 .menu-food-content img{
     width: 100%;
-    height: 300px;
     object-fit: cover;
 }
 
@@ -474,12 +449,3 @@ html{
     }
 
 }
-
-
-
-
-
-
-
-
-
